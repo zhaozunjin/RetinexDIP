@@ -13,13 +13,7 @@ RetinexDIP: A Unified Deep Framework for Low-light Image Enhancement. The pytorc
 
 ## File Structure
 ├─data
-│  ├─DICM
-│  ├─ExDark
-│  ├─Fusion
-│  ├─LIME
-│  ├─Nasa
-│  ├─NPEA
-│  └─VV
+│  ├─test
 ├─net
 ├─output
 │  ├─illumination
