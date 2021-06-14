@@ -1,17 +1,17 @@
 ## RetinexDIP
-RetinexDIP: A Unified Deep Framework for Low-light Image Enhancement. The pytorch implementation of RetinexDIP.
+The pytorch implementation of RetinexDIP.
 
-[Paper](https://ieeexplore.ieee.org/document/9405649)
+[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9050555)
 
 ## Install
--scipy==1.2.1
--numpy==1.19.4
--opencv-python==4.1.1
--Pillow==8.1.2
--torch==1.2.0
--torchvision==0.4.0
+- scipy==1.2.1
+- numpy==1.19.4
+- opencv-python==4.1.1
+- Pillow==8.1.2
+- torch==1.2.0
+- torchvision==0.4.0
 
-## File Structure
+## Files Structure
 ├─data
 │  ├─test
 ├─net
@@ -43,4 +43,6 @@ Explanations for some hyperparameters:
   This value could affect the performance. 3 is ok for natural image, if your images are extremely dark, you may consider 8 for the value.
 
 - **flag**
-This parameter from the function named $get_enhanced$ can be set as $True$ and $False$. If the input image is extremely dark, setting the flag as True can produce promising result. 
+
+  This parameter from the function named $get_enhanced$ can be set as $True$ and $False$. If the input image is extremely dark, setting the flag as True can produce promising result. 
+
