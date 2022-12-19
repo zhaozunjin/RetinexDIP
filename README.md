@@ -1,4 +1,4 @@
-##What is different between this fixed version and the original RetinexDIP?
+## What is different between this fixed version and the original RetinexDIP?
 (1) providing applications on videos.
 
 ## RetinexDIP
