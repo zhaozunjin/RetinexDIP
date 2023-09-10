@@ -1,3 +1,8 @@
+## What is different between this fixed version and the original RetinexDIP?
+(1) providing applications on both images and videos.
+```
+python Retinexdip_modify.py --input data/test --result ./result
+```
 ## RetinexDIP
 The pytorch implementation of [RetinexDIP: A Unified Deep Framework for Low-light Image Enhancement.](https://ieeexplore.ieee.org/document/9405649)
 
